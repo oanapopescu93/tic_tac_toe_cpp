@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1704035672 source:c:\users\oanap\desktop\tic_tac_toe\main.cpp
+	<iostream>
+	<ctime>
+	<limits>
+
