@@ -81,7 +81,7 @@ int main(){
         running = moving(1, spaces, player, computer);
     }
     cout << "Hope you liked the game.";
-    return 0;
+    //return 0;
 }
 
 void drawBoard(char *pSpace, bool emptyBoard){
@@ -120,7 +120,7 @@ void playerMove(char *pSpace, char player){
         if(!cin.good()){
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            cout << "You didn't choose a number. Choose again: ";
+            cout << "aaaYou didn't choose a number. Choose again: ";
             cin >> number;
 
         } else {
